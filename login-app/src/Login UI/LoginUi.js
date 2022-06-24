@@ -1,5 +1,5 @@
 import './LoginUi.css';
-import profile from "./../image/profile.png";
+import profile from "./../image/logo.png";
 import email from "./../image/email.jpg";
 import pass from "./../image/pass.png";
 function LoginUi() {
@@ -26,7 +26,7 @@ function LoginUi() {
           <button>Login</button>
           </div>
             <p className="link">
-              <a href="#">Forgot password?</a> Or <a href="#">Create a new account</a>
+              <a href="#" className="login__signup-link">Forgot password?</a> Or <a href="#" className="login__signup-link" >Create a new account</a>
             </p>
           </div>
         </div>
